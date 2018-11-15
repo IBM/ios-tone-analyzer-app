@@ -1,0 +1,8 @@
+Build/
+xcuserdata/
+Carthage/
+Pods/
+*.xcworkspace
+
+toneanalyzerios-Swift/toneanalyzerios/BMSCredentials.plist
+ios_swift/toneanalyzerios/BMSCredentials.plist
