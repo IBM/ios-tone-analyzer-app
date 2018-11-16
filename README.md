@@ -2,4 +2,4 @@
 
 Bluemix Mobile Starter for Tone Analyzer in Swift
 
-For instructions refer[here](https://github.com/ibm-bluemix-mobile-services/starter-tone-analyzer/blob/master/ios_swift/README.md) 
+For instructions refer[here](https://github.com/ibm-bluemix-mobile-services/starter-tone-analyzer/blob/master/ios_swift/README.md)
