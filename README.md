@@ -11,12 +11,6 @@ This Bluemix Mobile Starter will showcase the Tone Analyzer service from Watson 
 * Xcode 9.0+
 * Swift 3.2+ or Swift 4.0+
 
-## Configuration
-
-* [Bluemix Mobile services Dependency Mangagement](#bluemix-mobile-services-dependency-management)
-* [Watson Dependency Management](#watson-dependency-management)
-* [Watson Credential Mangement](#watson-credential-management)
-
 ### Bluemix Mobile services Dependency Management
 
 The Bluemix Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version 1.1.0.rc.2.
