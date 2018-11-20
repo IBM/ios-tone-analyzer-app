@@ -3,7 +3,7 @@
 
 # Create an iOS application in Swift which analyzes the emotion and tone of natural language
 
-This Bluemix Mobile Starter will showcase the Tone Analyzer service from Watson and give you integration points for each of the Bluemix Mobile services.
+This IBM Cloud Mobile Starter will showcase the Tone Analyzer service from Watson and give you integration points for each of the IBM Cloud Mobile services.
 
 ## Requirements
 
@@ -11,9 +11,9 @@ This Bluemix Mobile Starter will showcase the Tone Analyzer service from Watson 
 * Xcode 9.0+
 * Swift 3.2+ or Swift 4.0+
 
-### Bluemix Mobile services Dependency Management
+### IBM Cloud Mobile services Dependency Management
 
-The Bluemix Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version 1.1.0.rc.2.
+The IBM Cloud Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version 1.1.0.rc.2.
 
 You can install CocoaPods using the following command:
 
@@ -85,7 +85,7 @@ If you build your Carthage frameworks in a separate folder, you will have to dra
 
 ### Watson Credential Management
 
-Once the dependencies have been built and configured for the Bluemix Mobile service SDKs as well as the Watson Developer Cloud SDK, no more configuration is needed! A Watson Tone Analysis service has already been provisioned for you and your unique credentials were injected into the application during generation.
+Once the dependencies have been built and configured for the IBM Cloud Mobile service SDKs as well as the Watson Developer Cloud SDK, no more configuration is needed! A Watson Tone Analysis service has already been provisioned for you and your unique credentials were injected into the application during generation.
 
 > [View configuration](#configuration)
 
