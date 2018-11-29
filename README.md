@@ -3,6 +3,8 @@
 
 # Create an iOS application in Swift which analyzes the emotion and tone of natural language
 
+> We have a similar pattern available for [Android](https://github.com/IBM/tone-analyzer-android), as well!
+
 This IBM Cloud Mobile Starter will showcase the Tone Analyzer service from Watson and give you integration points for each of the IBM Cloud Mobile services.
 
 ![](README_Images/architecture.png)
