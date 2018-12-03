@@ -5,7 +5,13 @@
 
 > We have a similar pattern available for [Android](https://github.com/IBM/tone-analyzer-android), as well!
 
-This IBM Cloud Mobile Starter will showcase the Tone Analyzer service from Watson and give you integration points for each of the IBM Cloud Mobile services.
+In this code pattern, you will create an iOS application using the Watson Tone Analyzer service. You will be able to analyze emotions and tones in what people write online, such as in tweets or reviews, and then predict whether they are happy, sad, confident, and more. Monitor customer service and support conversations so you can respond to your customers appropriately and at scale. Enable your chatbot to detect customer tones so you can build dialog strategies to adjust the conversation accordingly.
+
+When you have completed this code pattern, you will understand how to:
+
+* Build a mobile application that uses Watson Tone Analyzer
+* Provision and integrate additional IBM Cloud services
+* Learn how to analyze emotions and tones in text
 
 ![](README_Images/architecture.png)
 
