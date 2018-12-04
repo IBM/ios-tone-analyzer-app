@@ -15,15 +15,24 @@ When you have completed this code pattern, you will understand how to:
 
 ![](README_Images/architecture.png)
 
-## Requirements
+## Steps
+
+1. [Install developer tools](#1-install-developer-tools)
+1. [Install dependencies](#2-install-dependencies)
+1. [Create a Tone Analyzer service instance](#3-create-a-tone-analyzer-service-instance)
+1. [Run](#4-run)
+
+### 1. Install developer tools
+
+Ensure you have the [required developer tools installed from Apple](https://developer.apple.com/download/):
 
 * iOS 8.0+
 * Xcode 9.0+
 * Swift 3.2+ or Swift 4.0+
 
-### IBM Cloud Mobile services Dependency Management
+### 2. Install dependencies
 
-The IBM Cloud Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version 1.1.0.rc.2.
+The IBM Cloud Mobile services SDK uses [CocoaPods](https://cocoapods.org/) to manage and configure dependencies. To use our latest SDKs you need version _1.1.0.rc.2_.
 
 You can install CocoaPods using the following command:
 
@@ -50,10 +59,6 @@ If you run into any issues during the pod install, it is recommended to run a po
 $ pod update
 $ pod install
 ```
-
-> [View configuration](#configuration)
-
-### Watson Dependency Management
 
 This starter uses the Watson Developer Cloud iOS SDK in order to use the Watson Tone Analyzer service.
 
@@ -91,15 +96,13 @@ Once the build has completed, the frameworks can be found in the **ios_swift/Car
 
 If you build your Carthage frameworks in a separate folder, you will have to drag-and-drop the above frameworks into your project and link them in order to run this starter successfully.
 
-> [View configuration](#configuration)
+### 3. Create a Tone Analyzer service instance
 
-### Watson Credential Management
+Use the [IBM Cloud Catalog](https://console.bluemix.net/catalog/) to [create a Tone Analyzer service instance](https://console.bluemix.net/catalog/services/tone-analyzer) on the Lite plan. Make sure to select **Use both legacy credentials and IAM** to receive the proper credential set for the Cloudant SDK.
 
-Once the dependencies have been built and configured for the IBM Cloud Mobile service SDKs as well as the Watson Developer Cloud SDK, no more configuration is needed! A Watson Tone Analysis service has already been provisioned for you and your unique credentials were injected into the application during generation.
+When the service has been created, navigate to the **Service credentials** tab, and create a **New credential ⊕** with the default options. Click **View credentials**. Edit `toneanalyzerios/BMSCredentials.plist` in your Xcode project to configure your application with your Cloudant credentials.
 
-> [View configuration](#configuration)
-
-## Run
+### 4. Run
 
 You can now run the application on a simulator or physical device:
 
