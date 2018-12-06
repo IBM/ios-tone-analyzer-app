@@ -3,6 +3,9 @@ xcuserdata/
 Carthage/
 Pods/
 *.xcworkspace
+.DS_Store
+*.lock
+*.resolved
 
 toneanalyzerios-Swift/toneanalyzerios/BMSCredentials.plist
 ios_swift/toneanalyzerios/BMSCredentials.plist
