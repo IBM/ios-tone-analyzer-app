@@ -17,6 +17,8 @@ When you have completed this code pattern, you will understand how to:
 
 ## Steps
 
+> As an alternative to the steps below, you can [create this project as a starter kit](https://console.bluemix.net/developer/appledevelopment/create-app?defaultDeploymentToolchain=&defaultLanguage=IOS_SWIFT&env_id=ibm%3Ayp%3Aus-south&navMode=starterkits&starterKit=ec27f1fc-3410-3355-b774-fe1f783d8f9a) on IBM Cloud, which automatically provisions required services, and injects service credentials into a custom fork of this pattern. Then, you can skip directly to step 4 below.
+
 1. [Install developer tools](#1-install-developer-tools)
 1. [Install dependencies](#2-install-dependencies)
 1. [Create a Tone Analyzer service instance](#3-create-a-tone-analyzer-service-instance)
