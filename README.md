@@ -53,7 +53,8 @@ A pre-configured `Podfile` is included in the root of this repository. To downlo
 ```bash
 $ pod install
 ```
-Now Open the Xcode workspace: `{APP_Name}.xcworkspace`. From now on, open the `.xcworkspace` file because it contains all the dependencies and configurations.
+
+Open the Xcode workspace: `toneanalyzerios.xcworkspace`. From now on, open the `.xcworkspace` file because it contains all the dependencies and configurations.
 
 If you run into any issues during the pod install, it is recommended to run a pod update by using the following commands:
 
@@ -99,7 +100,9 @@ When the service has been created, navigate to the **Service credentials** tab, 
 
 ### 4. Run
 
-You can now run the application on a simulator or physical device:
+You can now run the application on a simulator or physical device. Open the
+Xcode workspace, `toneanalyzerios.xcworkspace`, and use the play button to run
+the app.
 
 ![ToneAnalyzerMain](README_Images/ToneAnalyzerMain.png)
 ![ToneAnalyzerSpinner](README_Images/ToneAnalyzerSpinner.png)
