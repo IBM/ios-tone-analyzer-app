@@ -48,7 +48,7 @@ If the CocoaPods repository is not configured, run the following command:
 $ pod setup
 ```
 
-For this starter, a pre-configured `Podfile` has been included in the **ios_swift/Podfile** location. To download and install the required dependencies, run the following command in the **ios_swift** directory:
+A pre-configured `Podfile` is included at `ios_swift/Podfile`. To download and install the required dependencies, run the following command in the `ios_swift` directory:
 
 ```bash
 $ pod install
