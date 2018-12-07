@@ -62,7 +62,7 @@ $ pod update
 $ pod install
 ```
 
-This starter uses the Watson Developer Cloud iOS SDK in order to use the Watson Tone Analyzer service.
+This project uses the Watson Developer Cloud iOS SDK in order to use the Watson Tone Analyzer service.
 
 The Watson Developer Cloud iOS SDK uses [Carthage](https://github.com/Carthage/Carthage) to manage dependencies and build binary frameworks.
 
@@ -82,14 +82,14 @@ $ carthage update --platform iOS
 
 > **Note**: You may have to run `carthage update --platform iOS --no-use-binaries`, if the binary is a lower version than your current version of Swift.
 
-Once the build has completed, the frameworks can be found in the **ios_swift/Carthage/Build/iOS/** folder. The Xcode project in this starter already includes framework links to the following frameworks in this directory:
+Once the build has completed, the frameworks can be found in the **ios_swift/Carthage/Build/iOS/** folder. The Xcode project in this repository already includes framework links to the following frameworks in this directory:
 
 * **ToneAnalyzerV3.framework**
 * **RestKit.framework**
 
 ![ConfiguredFrameworks](README_Images/ConfiguredFrameworks.png)
 
-If you build your Carthage frameworks in a separate folder, you will have to drag-and-drop the above frameworks into your project and link them in order to run this starter successfully.
+If you build your Carthage frameworks in a separate folder, you will have to drag-and-drop the above frameworks into your project and link them in order to run it successfully.
 
 ### 3. Create a Tone Analyzer service instance
 
