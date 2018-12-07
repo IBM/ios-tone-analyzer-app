@@ -48,7 +48,7 @@ If the CocoaPods repository is not configured, run the following command:
 $ pod setup
 ```
 
-A pre-configured `Podfile` is included at `ios_swift/Podfile`. To download and install the required dependencies, run the following command in the `ios_swift` directory:
+A pre-configured `Podfile` is included in the root of this repository. To download and install the required dependencies, run the following command:
 
 ```bash
 $ pod install
@@ -73,7 +73,7 @@ $ brew update
 $ brew install carthage
 ```
 
-A pre-configured `Cartfile` is included in `ios_swift/Cartfile`. Run the
+A pre-configured `Cartfile` is included in the root of this repository. Run the
 following command to build the dependencies and frameworks:
 
 ```bash
