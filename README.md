@@ -73,15 +73,8 @@ $ brew update
 $ brew install carthage
 ```
 
-To use the Watson Developer Cloud iOS SDK in any of your applications, specify it in your `Cartfile`:
-
-```
-github "watson-developer-cloud/swift-sdk"
-```
-
-For this starter, a pre-configured `Cartfile` has been included in the **ios_swift/Cartfile** location
-
-Run the following command to build the dependencies and frameworks:
+A pre-configured `Cartfile` is included in `ios_swift/Cartfile`. Run the
+following command to build the dependencies and frameworks:
 
 ```bash
 $ carthage update --platform iOS
