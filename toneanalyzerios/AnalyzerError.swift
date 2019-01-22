@@ -24,6 +24,8 @@ enum AnalyzerError: Error, CustomStringConvertible {
 
     case noData
 
+    case failedToAnalyzeTone
+
     case error(String)
 
     var title: String {
@@ -31,6 +33,7 @@ enum AnalyzerError: Error, CustomStringConvertible {
         case .missingCredentials: return "Missing Tone Analyzer Credentials"
         case .invalidCredentials: return "Invalid Tone Analyzer Credentials"
         case .noData: return "Bad Response"
+        case .failedToAnalyzeTone: return "Bad Response"
         case .error: return "An error occurred"
         }
     }
@@ -40,6 +43,7 @@ enum AnalyzerError: Error, CustomStringConvertible {
         case .missingCredentials: return "Please check the readme for more information on credentials configuration."
         case .invalidCredentials: return "Please check the readme for more information on credentials configuration."
         case .noData: return "No Tone Analyzer data was received."
+        case .failedToAnalyzeTone: return "Failed to analyze the tone input."
         case .error(let msg): return msg
         }
     }
