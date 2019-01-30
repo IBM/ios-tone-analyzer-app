@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'toneanalyzerios' do
     pod 'BMSCore', '~> 2.0'

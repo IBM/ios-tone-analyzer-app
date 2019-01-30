@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65A4096316BB4927B04AF79E /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 64927D1EAE0545F699411ED8 /* LICENSE */; };
-		3AEB1B05FF944175872C86E9 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 670C572FB7DD432EAB991FCF /* .gitignore */; };
-		C20C8EB388D94A338ECA558E /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6877C001A89B4A8B84A7F828 /* BMSCredentials.plist */; };
+		947DEF940BE443C9AA26F886 /* .gitignore in Sources */ = {isa = PBXBuildFile; fileRef = 250115ABC7A945FC92E30069 /* .gitignore */; };
+		B0024A8AF323409DA37B55F5 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = EAFD61C27EA94DD988B40843 /* LICENSE */; };
+		6F79F8F69FFD41AE8DD9D61C /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5267708AE2924D4583B9743E /* BMSCredentials.plist */; };
 		075AAE2DD8CF951AEBA07735 /* Pods_toneanalyzeriosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FB6B94BD7F5CF6B965945C /* Pods_toneanalyzeriosUITests.framework */; };
 		29E8B1C6E0F04D5099022EDB /* Pods_toneanalyzeriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E544B14066F29C9013C2DBC8 /* Pods_toneanalyzeriosTests.framework */; };
 		49D1A33B1DBE603900D2A7D0 /* ToneCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */; };
@@ -45,9 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		64927D1EAE0545F699411ED8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
-		670C572FB7DD432EAB991FCF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
-		6877C001A89B4A8B84A7F828 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		250115ABC7A945FC92E30069 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = .gitignore; path = .gitignore; sourceTree = "<group>"; };
+		EAFD61C27EA94DD988B40843 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LICENSE; path = LICENSE; sourceTree = "<group>"; };
+		5267708AE2924D4583B9743E /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BMSCredentials.plist; path = BMSCredentials.plist; sourceTree = "<group>"; };
 		11E82E2A01DF386A2BD70BE6 /* Pods-toneanalyzerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.debug.xcconfig"; sourceTree = "<group>"; };
 		18FB6B94BD7F5CF6B965945C /* Pods_toneanalyzeriosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CCAB15229E227CD9B62C913 /* Pods-toneanalyzerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.release.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		555C91AA1D0F0731003E84E3 /* toneanalyzerios */ = {
 			isa = PBXGroup;
 			children = (
-				6877C001A89B4A8B84A7F828 /* BMSCredentials.plist */,
+				5267708AE2924D4583B9743E /* BMSCredentials.plist */,
 				555C91AB1D0F0731003E84E3 /* AppDelegate.swift */,
 				49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */,
 				49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */,
@@ -304,7 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C20C8EB388D94A338ECA558E /* BMSCredentials.plist in Resources */,
+				6F79F8F69FFD41AE8DD9D61C /* BMSCredentials.plist in Resources */,
 				C5547A7D64844BFEB1F52E6E /* BMSCredentials.plist in Resources */,
 				49D1A33F1DBE710900D2A7D0 /* TagCollectionViewCell.xib in Resources */,
 				555C91B31D0F0731003E84E3 /* Assets.xcassets in Resources */,
