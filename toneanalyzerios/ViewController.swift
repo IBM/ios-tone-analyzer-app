@@ -15,7 +15,7 @@
  **/
 
 import UIKit
-import ToneAnalyzerV3
+import ToneAnalyzer
 import SwiftSpinner
 import KTCenterFlowLayout
 import BMSCore
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         // Register did become active observer
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(didBecomeActive),
-                                               name: .UIApplicationDidBecomeActive,
+                                               name: UIApplication.didBecomeActiveNotification,
                                                object: nil)
 
         
