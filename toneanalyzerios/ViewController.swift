@@ -15,7 +15,7 @@
  **/
 
 import UIKit
-import ToneAnalyzerV3
+import ToneAnalyzer
 import SwiftSpinner
 import KTCenterFlowLayout
 import BMSCore
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         // Register did become active observer
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(didBecomeActive),
-                                               name: .UIApplicationDidBecomeActive,
+                                               name: UIApplication.didBecomeActiveNotification,
                                                object: nil)
 
         
@@ -187,13 +187,31 @@ class ViewController: UIViewController {
         SwiftSpinner.show("Watson is Analyzing Tone")
 
         // Use Watson Tone Analyzer to analyze input text. Call error function if failure
-        sdk.tone(text: textToAnalyze, failure: failToneAnalyzerWithError) { tones in
+        let input = ToneInput(text: textToAnalyze)
+        sdk.tone(toneContent: .toneInput(input)) { response, error in
+            if let error = error {
+                self.failToneAnalyzerWithError(error)
+                return
+            }
+
+            guard let tones = response?.result else {
+                DispatchQueue.main.async {
+                    SwiftSpinner.hide()
+                    self.showAlert(.failedToAnalyzeTone)
+                }
+                return
+            }
+
             // Loop through sentence tones
             self.analyzedCategoriesArray = []
             guard let categories = tones.documentTone.toneCategories else {
-                self.showAlert(.noData)
+                DispatchQueue.main.async {
+                    SwiftSpinner.hide()
+                    self.showAlert(.noData)
+                }
                 return
             }
+
             // Loop through document tones
             for documentTone in categories {
                 // Set tone category parameters

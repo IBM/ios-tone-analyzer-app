@@ -1,5 +1,5 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'toneanalyzerios' do
     pod 'BMSCore', '~> 2.0'
@@ -8,12 +8,13 @@ target 'toneanalyzerios' do
     use_frameworks!
 
     # Pods for toneanalyzerios
-    pod "SwiftSpinner", '~> 1.5.0'
+    pod "SwiftSpinner", '~> 1.6.0'
     pod 'KTCenterFlowLayout', '~> 1.3.1'
+    pod 'IBMWatsonToneAnalyzerV3', '~> 1.3'
 
     post_install do |installer|
         installer.pods_project.targets.each do |target|
-            if ['SwiftSpinner', 'SwiftCloudant', 'KTCenterFlowLayout'].include? target.name
+            if ['SwiftCloudant', 'KTCenterFlowLayout'].include? target.name
                 target.build_configurations.each do |config|
                     config.build_settings['SWIFT_VERSION'] = '3.2'
                 end
