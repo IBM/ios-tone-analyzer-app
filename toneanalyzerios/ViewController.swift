@@ -120,11 +120,16 @@ class ViewController: UIViewController {
             self.showAlert(.missingCredentials)
             return
         }
+        
+        guard let toneAnalyzerConfig = configuration["toneAnalyzer"] as? NSDictionary else {
+            showAlert(.missingCredentials)
+            return
+        }
 
         // Set the Watson credentials for Tone Analyzer service from the BMSCredentials.plist
         // If using IAM authentication
-        if let apikey = configuration["toneanalyzerApikey"] as? String,
-           let url = configuration["toneanalyzerUrl"] as? String {
+        if let apikey = toneAnalyzerConfig["apikey"] as? String,
+           let url = toneAnalyzerConfig["url"] as? String {
 
            // Initialize Tone Analyzer object
            let authenticator = WatsonIAMAuthenticator(apiKey: apikey)
