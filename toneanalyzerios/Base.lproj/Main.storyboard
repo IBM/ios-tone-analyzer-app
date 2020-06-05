@@ -128,7 +128,6 @@
                                 <rect key="frame" x="323" y="621" width="38" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="38" id="JLj-38-rHb"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="38" id="s2A-n1-nOd"/>
                                     <constraint firstAttribute="height" constant="38" id="wIj-Mc-cVZ"/>
                                 </constraints>
                                 <state key="normal" image="ToneAnalyzer"/>

@@ -52,7 +52,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // Add a done button to the keyboard
-        let toolbar = UIToolbar()
+//        let toolbar = UIToolbar()
+        let toolbar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
         let doneBtn = UIBarButtonItem(title: "Done", style: .done, target: self, action: #selector(doneHandler))
         let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         toolbar.sizeToFit()
