@@ -167,6 +167,7 @@ class ViewController: UIViewController {
 
     // Method to analyze tone using the Watson Tone Analyzer
     func analyzeTone(_ textToAnalyze: String) {
+        print("Analyzing tone of: " + textToAnalyze)
 
         // Ensure tone analyzer has been instantiated
         guard let sdk = toneAnalyzer else {
@@ -233,14 +234,16 @@ class ViewController: UIViewController {
 
     // Method to show an alert with an alertTitle String and alertMessage String
     func showAlert(_ error: AnalyzerError) {
-        // If an alert is not currently being displayed
-        if self.presentedViewController == nil {
-            // Set alert properties
-            let alert = UIAlertController(title: error.title, message: error.message, preferredStyle: .alert)
-            // Add an action to the alert
-            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
-            // Show the alert
-            self.present(alert, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            // If an alert is not currently being displayed
+            if self.presentedViewController == nil {
+                // Set alert properties
+                let alert = UIAlertController(title: error.title, message: error.message, preferredStyle: .alert)
+                // Add an action to the alert
+                alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+                // Show the alert
+                self.present(alert, animated: true, completion: nil)
+            }
         }
     }
 }
@@ -273,6 +276,7 @@ extension ViewController: UICollectionViewDataSource {
             let toneScore = ((self.analyzedCategoriesArray[collectionView.tag].tones[indexPath.item].score * 0.7) + 0.3)
             // Set the alpha of the cell to the scaled tone score
             cell.alpha = CGFloat(toneScore)
+            cell.backgroundColor = cell.backgroundColor?.withAlphaComponent(CGFloat(toneScore))
         } else {
             // Otherwise set the tag label text to an empty string
             cell.tagLabel.text = ""
