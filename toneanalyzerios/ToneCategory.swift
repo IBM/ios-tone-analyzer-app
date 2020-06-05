@@ -15,7 +15,7 @@
  **/
 
 import Foundation
-import ToneAnalyzerV3
+import ToneAnalyzer
 
 //Struct that will hold the Tone Category information for each cell
 struct ToneCategory {

@@ -15,7 +15,7 @@
  **/
 
 import UIKit
-import ToneAnalyzerV3
+import ToneAnalyzer
 import SwiftSpinner
 import KTCenterFlowLayout
 import BMSCore
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         // Register did become active observer
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(didBecomeActive),
-                                               name: .UIApplicationDidBecomeActive,
+                                               name: UIApplication.didBecomeActiveNotification,
                                                object: nil)
 
         
@@ -127,18 +127,8 @@ class ViewController: UIViewController {
            let url = configuration["toneanalyzerUrl"] as? String {
 
            // Initialize Tone Analyzer object
-           toneAnalyzer = ToneAnalyzer(version: versionDate, apiKey: apikey)
-
-           // Set the URL for the Assistant Service
-           toneAnalyzer?.serviceURL = url
-
-           // If using user/pwd authentication
-       } else if let password = configuration["toneanalyzerPassword"] as? String,
-           let username = configuration["toneanalyzerUsername"] as? String,
-           let url = configuration["toneanalyzerUrl"] as? String {
-
-           // Initialize Watson Assistant object
-           toneAnalyzer = ToneAnalyzer(username: username, password: password, version: versionDate)
+           let authenticator = WatsonIAMAuthenticator(apiKey: apikey)
+           toneAnalyzer = ToneAnalyzer(version: versionDate, authenticator: authenticator)
 
            // Set the URL for the Assistant Service
            toneAnalyzer?.serviceURL = url
@@ -177,6 +167,7 @@ class ViewController: UIViewController {
 
     // Method to analyze tone using the Watson Tone Analyzer
     func analyzeTone(_ textToAnalyze: String) {
+        print("Analyzing tone of: " + textToAnalyze)
 
         // Ensure tone analyzer has been instantiated
         guard let sdk = toneAnalyzer else {
@@ -187,7 +178,15 @@ class ViewController: UIViewController {
         SwiftSpinner.show("Watson is Analyzing Tone")
 
         // Use Watson Tone Analyzer to analyze input text. Call error function if failure
-        sdk.tone(text: textToAnalyze, failure: failToneAnalyzerWithError) { tones in
+        let input = ToneInput(text: textToAnalyze)
+        sdk.tone(toneContent: .toneInput(input)) { response, error in
+            if let error = error {
+                self.failToneAnalyzerWithError(error)
+            }
+            guard let tones = response?.result else {
+                self.failToneAnalyzerWithError(AnalyzerError.error("Failed to analyze the tone input"))
+                return
+            }
             // Loop through sentence tones
             self.analyzedCategoriesArray = []
             guard let categories = tones.documentTone.toneCategories else {
@@ -235,14 +234,16 @@ class ViewController: UIViewController {
 
     // Method to show an alert with an alertTitle String and alertMessage String
     func showAlert(_ error: AnalyzerError) {
-        // If an alert is not currently being displayed
-        if self.presentedViewController == nil {
-            // Set alert properties
-            let alert = UIAlertController(title: error.title, message: error.message, preferredStyle: .alert)
-            // Add an action to the alert
-            alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
-            // Show the alert
-            self.present(alert, animated: true, completion: nil)
+        DispatchQueue.main.async {
+            // If an alert is not currently being displayed
+            if self.presentedViewController == nil {
+                // Set alert properties
+                let alert = UIAlertController(title: error.title, message: error.message, preferredStyle: .alert)
+                // Add an action to the alert
+                alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+                // Show the alert
+                self.present(alert, animated: true, completion: nil)
+            }
         }
     }
 }
@@ -275,6 +276,7 @@ extension ViewController: UICollectionViewDataSource {
             let toneScore = ((self.analyzedCategoriesArray[collectionView.tag].tones[indexPath.item].score * 0.7) + 0.3)
             // Set the alpha of the cell to the scaled tone score
             cell.alpha = CGFloat(toneScore)
+            cell.backgroundColor = cell.backgroundColor?.withAlphaComponent(CGFloat(toneScore))
         } else {
             // Otherwise set the tag label text to an empty string
             cell.tagLabel.text = ""
