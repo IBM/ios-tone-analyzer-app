@@ -2,14 +2,14 @@
 # platform :ios, '9.0'
 
 target 'toneanalyzerios' do
-    pod 'BMSCore', '~> 2.0'
-    pod 'IBMWatsonToneAnalyzerV3', '~> 1.4.0'
+    pod 'BMSCore', '~> 2.6.0'
+    pod 'IBMWatsonToneAnalyzerV3', '~> 3.4.0'
 
     # Comment this line if you're not using Swift and don't want to use dynamic frameworks
     use_frameworks!
 
     # Pods for toneanalyzerios
-    pod "SwiftSpinner", '~> 1.5.0'
+    pod "SwiftSpinner", '~> 2.1.0'
     pod 'KTCenterFlowLayout', '~> 1.3.1'
 
     post_install do |installer|

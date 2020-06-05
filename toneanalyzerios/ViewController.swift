@@ -127,18 +127,8 @@ class ViewController: UIViewController {
            let url = configuration["toneanalyzerUrl"] as? String {
 
            // Initialize Tone Analyzer object
-           toneAnalyzer = ToneAnalyzer(version: versionDate, apiKey: apikey)
-
-           // Set the URL for the Assistant Service
-           toneAnalyzer?.serviceURL = url
-
-           // If using user/pwd authentication
-       } else if let password = configuration["toneanalyzerPassword"] as? String,
-           let username = configuration["toneanalyzerUsername"] as? String,
-           let url = configuration["toneanalyzerUrl"] as? String {
-
-           // Initialize Watson Assistant object
-           toneAnalyzer = ToneAnalyzer(username: username, password: password, version: versionDate)
+           let authenticator = WatsonIAMAuthenticator(apiKey: apikey)
+           toneAnalyzer = ToneAnalyzer(version: versionDate, authenticator: authenticator)
 
            // Set the URL for the Assistant Service
            toneAnalyzer?.serviceURL = url

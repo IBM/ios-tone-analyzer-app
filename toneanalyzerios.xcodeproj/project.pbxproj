@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		075AAE2DD8CF951AEBA07735 /* Pods_toneanalyzeriosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FB6B94BD7F5CF6B965945C /* Pods_toneanalyzeriosUITests.framework */; };
-		29E8B1C6E0F04D5099022EDB /* Pods_toneanalyzeriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E544B14066F29C9013C2DBC8 /* Pods_toneanalyzeriosTests.framework */; };
+		388364E3D6282A0E9C7519FD /* Pods_toneanalyzeriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */; };
 		4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; };
 		4940B3F31DC10C5000084419 /* ToneAnalyzerV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49D1A33B1DBE603900D2A7D0 /* ToneCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */; };
@@ -21,8 +20,9 @@
 		555C91C11D0F0731003E84E3 /* toneanalyzeriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */; };
 		555C91CC1D0F0731003E84E3 /* toneanalyzeriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */; };
 		6EF4C41DC1864171ABD29E06 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93C8179572349E4B03502C3 /* BMSCredentials.plist */; };
-		9D056528766C3DA17608E6CD /* Pods_toneanalyzerios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C588E03443573F2DDF2BE953 /* Pods_toneanalyzerios.framework */; };
+		C0602E166CCAA949C2767B1D /* Pods_toneanalyzerios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */; };
 		E3F7DD46202BAF5400F857C3 /* AnalyzerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */; };
+		FDC8DE9C8D35AB64E7FABB75 /* Pods_toneanalyzeriosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +57,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		11E82E2A01DF386A2BD70BE6 /* Pods-toneanalyzerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.debug.xcconfig"; sourceTree = "<group>"; };
-		18FB6B94BD7F5CF6B965945C /* Pods_toneanalyzeriosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CCAB15229E227CD9B62C913 /* Pods-toneanalyzerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.release.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.release.xcconfig"; sourceTree = "<group>"; };
-		483EEB55DA3E89708BB85127 /* Pods-toneanalyzeriosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.release.xcconfig"; sourceTree = "<group>"; };
 		4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
 		49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCategory.swift; sourceTree = "<group>"; };
 		49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -78,12 +76,14 @@
 		555C91C71D0F0731003E84E3 /* toneanalyzeriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toneanalyzeriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosUITests.swift; sourceTree = "<group>"; };
 		555C91CD1D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87BF2132F67C2EAE62E4B71D /* Pods-toneanalyzeriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE8DF661C07204DB0E9EEB5F /* Pods-toneanalyzeriosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.release.xcconfig"; sourceTree = "<group>"; };
-		C588E03443573F2DDF2BE953 /* Pods_toneanalyzerios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzerios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D89BC7573A6BA92E7A355C67 /* Pods-toneanalyzeriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzerios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerError.swift; sourceTree = "<group>"; };
-		E544B14066F29C9013C2DBC8 /* Pods_toneanalyzeriosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93C8179572349E4B03502C3 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,8 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D056528766C3DA17608E6CD /* Pods_toneanalyzerios.framework in Frameworks */,
 				4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */,
+				C0602E166CCAA949C2767B1D /* Pods_toneanalyzerios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E8B1C6E0F04D5099022EDB /* Pods_toneanalyzeriosTests.framework in Frameworks */,
+				388364E3D6282A0E9C7519FD /* Pods_toneanalyzeriosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,21 +109,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075AAE2DD8CF951AEBA07735 /* Pods_toneanalyzeriosUITests.framework in Frameworks */,
+				FDC8DE9C8D35AB64E7FABB75 /* Pods_toneanalyzeriosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B17B012FD50B0CB5A077FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */,
+				49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */,
+				C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */,
+				ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */,
+				57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */,
+				B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		545C9DD4D3D79A706E9BC9CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */,
 				49E15BAF1D9023E7005C4B9E /* RestKit.framework */,
-				C588E03443573F2DDF2BE953 /* Pods_toneanalyzerios.framework */,
-				E544B14066F29C9013C2DBC8 /* Pods_toneanalyzeriosTests.framework */,
-				18FB6B94BD7F5CF6B965945C /* Pods_toneanalyzeriosUITests.framework */,
+				C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */,
+				D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */,
+				35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,8 +148,8 @@
 				555C91BF1D0F0731003E84E3 /* toneanalyzeriosTests */,
 				555C91CA1D0F0731003E84E3 /* toneanalyzeriosUITests */,
 				555C91A91D0F0731003E84E3 /* Products */,
-				A4160B77D037FA5B9F790955 /* Pods */,
 				545C9DD4D3D79A706E9BC9CE /* Frameworks */,
+				2B17B012FD50B0CB5A077FDE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,19 +198,6 @@
 			path = toneanalyzeriosUITests;
 			sourceTree = "<group>";
 		};
-		A4160B77D037FA5B9F790955 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				11E82E2A01DF386A2BD70BE6 /* Pods-toneanalyzerios.debug.xcconfig */,
-				1CCAB15229E227CD9B62C913 /* Pods-toneanalyzerios.release.xcconfig */,
-				D89BC7573A6BA92E7A355C67 /* Pods-toneanalyzeriosTests.debug.xcconfig */,
-				BE8DF661C07204DB0E9EEB5F /* Pods-toneanalyzeriosTests.release.xcconfig */,
-				87BF2132F67C2EAE62E4B71D /* Pods-toneanalyzeriosUITests.debug.xcconfig */,
-				483EEB55DA3E89708BB85127 /* Pods-toneanalyzeriosUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,12 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzerios" */;
 			buildPhases = (
-				E48551C04942F6AAA79A91F5 /* [CP] Check Pods Manifest.lock */,
+				452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */,
 				555C91A41D0F0731003E84E3 /* Sources */,
 				555C91A51D0F0731003E84E3 /* Frameworks */,
 				555C91A61D0F0731003E84E3 /* Resources */,
-				7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */,
 				49E15BA51D902274005C4B9E /* Embed Frameworks */,
+				0C81F8285148865C0E8D280C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -225,7 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosTests" */;
 			buildPhases = (
-				A9F8F9D069C5977EF9956A05 /* [CP] Check Pods Manifest.lock */,
+				797C0899103444B25385A8AB /* [CP] Check Pods Manifest.lock */,
 				555C91B81D0F0731003E84E3 /* Sources */,
 				555C91B91D0F0731003E84E3 /* Frameworks */,
 				555C91BA1D0F0731003E84E3 /* Resources */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosUITests" */;
 			buildPhases = (
-				2AE1C0064C94D16713FCF8D0 /* [CP] Check Pods Manifest.lock */,
+				65039B1CF49E633042FBBB16 /* [CP] Check Pods Manifest.lock */,
 				555C91C31D0F0731003E84E3 /* Sources */,
 				555C91C41D0F0731003E84E3 /* Frameworks */,
 				555C91C51D0F0731003E84E3 /* Resources */,
@@ -266,28 +266,28 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = IBM;
 				TargetAttributes = {
 					555C91A71D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 					};
 					555C91BB1D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 					555C91C61D0F0731003E84E3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1110;
 						TestTargetID = 555C91A71D0F0731003E84E3;
 					};
 				};
 			};
 			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "toneanalyzerios" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -334,25 +334,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AE1C0064C94D16713FCF8D0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A8D7333F6565346A25DF969 /* [CP] Embed Pods Frameworks */ = {
+		0C81F8285148865C0E8D280C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,7 +343,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
-				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMSwiftSDKCore/IBMSwiftSDKCore.framework",
 				"${BUILT_PRODUCTS_DIR}/IBMWatsonToneAnalyzerV3/ToneAnalyzer.framework",
 				"${BUILT_PRODUCTS_DIR}/KTCenterFlowLayout/KTCenterFlowLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
@@ -370,7 +352,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSAnalyticsAPI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMSCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMSwiftSDKCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ToneAnalyzer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KTCenterFlowLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
@@ -380,36 +362,66 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A9F8F9D069C5977EF9956A05 /* [CP] Check Pods Manifest.lock */ = {
+		452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-toneanalyzerios-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E48551C04942F6AAA79A91F5 /* [CP] Check Pods Manifest.lock */ = {
+		65039B1CF49E633042FBBB16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzerios-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797C0899103444B25385A8AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -478,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -526,7 +539,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -535,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -576,7 +590,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -584,7 +598,7 @@
 		};
 		555C91D11D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E82E2A01DF386A2BD70BE6 /* Pods-toneanalyzerios.debug.xcconfig */;
+			baseConfigurationReference = 9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,13 +611,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzerios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		555C91D21D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CCAB15229E227CD9B62C913 /* Pods-toneanalyzerios.release.xcconfig */;
+			baseConfigurationReference = 49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -616,60 +630,60 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzerios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		555C91D41D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D89BC7573A6BA92E7A355C67 /* Pods-toneanalyzeriosTests.debug.xcconfig */;
+			baseConfigurationReference = C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = toneanalyzeriosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toneanalyzerios.app/toneanalyzerios";
 			};
 			name = Debug;
 		};
 		555C91D51D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE8DF661C07204DB0E9EEB5F /* Pods-toneanalyzeriosTests.release.xcconfig */;
+			baseConfigurationReference = ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = toneanalyzeriosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toneanalyzerios.app/toneanalyzerios";
 			};
 			name = Release;
 		};
 		555C91D71D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87BF2132F67C2EAE62E4B71D /* Pods-toneanalyzeriosUITests.debug.xcconfig */;
+			baseConfigurationReference = 57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = toneanalyzeriosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = toneanalyzerios;
 			};
 			name = Debug;
 		};
 		555C91D81D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 483EEB55DA3E89708BB85127 /* Pods-toneanalyzeriosUITests.release.xcconfig */;
+			baseConfigurationReference = B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = toneanalyzeriosUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = toneanalyzerios;
 			};
 			name = Release;
