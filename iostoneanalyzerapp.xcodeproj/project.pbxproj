@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		388364E3D6282A0E9C7519FD /* Pods_toneanalyzeriosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */; };
 		4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; };
 		4940B3F31DC10C5000084419 /* ToneAnalyzerV3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49D1A33B1DBE603900D2A7D0 /* ToneCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */; };
@@ -20,9 +19,10 @@
 		555C91C11D0F0731003E84E3 /* toneanalyzeriosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */; };
 		555C91CC1D0F0731003E84E3 /* toneanalyzeriosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */; };
 		6EF4C41DC1864171ABD29E06 /* BMSCredentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93C8179572349E4B03502C3 /* BMSCredentials.plist */; };
-		C0602E166CCAA949C2767B1D /* Pods_toneanalyzerios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */; };
+		A3528A5681DB94BEDBF337E4 /* Pods_iostoneanalyzerappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */; };
+		B91EB15153F21DC4BEA8B5AB /* Pods_iostoneanalyzerapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */; };
 		E3F7DD46202BAF5400F857C3 /* AnalyzerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */; };
-		FDC8DE9C8D35AB64E7FABB75 /* Pods_toneanalyzeriosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */; };
+		F7B1456C0A6CC741EA810AC7 /* Pods_iostoneanalyzerappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.release.xcconfig"; sourceTree = "<group>"; };
 		4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ToneAnalyzerV3.framework; path = Carthage/Build/iOS/ToneAnalyzerV3.framework; sourceTree = "<group>"; };
 		49D1A33A1DBE603900D2A7D0 /* ToneCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneCategory.swift; sourceTree = "<group>"; };
 		49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
 		49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
 		49E15BAF1D9023E7005C4B9E /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
+		4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerapp.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp.release.xcconfig"; sourceTree = "<group>"; };
 		555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iostoneanalyzerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91AB1D0F0731003E84E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555C91AD1D0F0731003E84E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,14 +77,20 @@
 		555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosUITests.swift; sourceTree = "<group>"; };
 		555C91CD1D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappUITests.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappUITests/Pods-iostoneanalyzerappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappTests.release.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappTests/Pods-iostoneanalyzerappTests.release.xcconfig"; sourceTree = "<group>"; };
+		73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappUITests.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappUITests/Pods-iostoneanalyzerappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerappTests.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerappTests/Pods-iostoneanalyzerappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzerios.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios.debug.xcconfig"; sourceTree = "<group>"; };
 		ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.release.xcconfig"; sourceTree = "<group>"; };
 		B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.release.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosTests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosTests/Pods-toneanalyzeriosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzerios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toneanalyzeriosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iostoneanalyzerapp.debug.xcconfig"; path = "Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp.debug.xcconfig"; sourceTree = "<group>"; };
 		E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzerError.swift; sourceTree = "<group>"; };
+		E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93C8179572349E4B03502C3 /* BMSCredentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BMSCredentials.plist; sourceTree = "<group>"; };
+		E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iostoneanalyzerapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4940B3F11DC10C4700084419 /* ToneAnalyzerV3.framework in Frameworks */,
-				C0602E166CCAA949C2767B1D /* Pods_toneanalyzerios.framework in Frameworks */,
+				B91EB15153F21DC4BEA8B5AB /* Pods_iostoneanalyzerapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				388364E3D6282A0E9C7519FD /* Pods_toneanalyzeriosTests.framework in Frameworks */,
+				F7B1456C0A6CC741EA810AC7 /* Pods_iostoneanalyzerappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDC8DE9C8D35AB64E7FABB75 /* Pods_toneanalyzeriosUITests.framework in Frameworks */,
+				A3528A5681DB94BEDBF337E4 /* Pods_iostoneanalyzerappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +131,12 @@
 				ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */,
 				57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */,
 				B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */,
+				D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */,
+				4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */,
+				86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */,
+				739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */,
+				73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */,
+				6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -134,9 +146,9 @@
 			children = (
 				4940B3F01DC10C4700084419 /* ToneAnalyzerV3.framework */,
 				49E15BAF1D9023E7005C4B9E /* RestKit.framework */,
-				C1B5FAB1046B80347FB3B613 /* Pods_toneanalyzerios.framework */,
-				D1FDB32DA7E31E9D2A3BD345 /* Pods_toneanalyzeriosTests.framework */,
-				35E6F75BB0613B440AD88CE8 /* Pods_toneanalyzeriosUITests.framework */,
+				E9AC302C45D93AE442C88325 /* Pods_iostoneanalyzerapp.framework */,
+				E94DFF87E6E25EA2B5EFB022 /* Pods_iostoneanalyzerappTests.framework */,
+				E3FB24885A3D13447C399F3F /* Pods_iostoneanalyzerappUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -340,7 +352,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BMSAnalyticsAPI/BMSAnalyticsAPI.framework",
 				"${BUILT_PRODUCTS_DIR}/BMSCore/BMSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/IBMSwiftSDKCore/IBMSwiftSDKCore.framework",
@@ -359,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-toneanalyzerios/Pods-toneanalyzerios-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iostoneanalyzerapp/Pods-iostoneanalyzerapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */ = {
@@ -377,7 +389,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzerios-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerapp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,7 +411,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerappUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -421,7 +433,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-toneanalyzeriosTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-iostoneanalyzerappTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -598,7 +610,7 @@
 		};
 		555C91D11D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9779FE378A1D1328052E17D8 /* Pods-toneanalyzerios.debug.xcconfig */;
+			baseConfigurationReference = D3638CCBDBAD651316F68F1F /* Pods-iostoneanalyzerapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -617,7 +629,7 @@
 		};
 		555C91D21D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49171A5080EFFF42C1DF8961 /* Pods-toneanalyzerios.release.xcconfig */;
+			baseConfigurationReference = 4AEFB8CA9BA9A8D663A55C83 /* Pods-iostoneanalyzerapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -636,7 +648,7 @@
 		};
 		555C91D41D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */;
+			baseConfigurationReference = 86707949C628237734738064 /* Pods-iostoneanalyzerappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iosappTests/Info.plist;
@@ -650,7 +662,7 @@
 		};
 		555C91D51D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */;
+			baseConfigurationReference = 739A4C25C90482804F089D33 /* Pods-iostoneanalyzerappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = iosappTests/Info.plist;
@@ -664,7 +676,7 @@
 		};
 		555C91D71D0F0731003E84E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */;
+			baseConfigurationReference = 73BD8F69E8CFADC527E502A5 /* Pods-iostoneanalyzerappUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -677,7 +689,7 @@
 		};
 		555C91D81D0F0731003E84E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */;
+			baseConfigurationReference = 6318FE42ABAB9E732D1CC13F /* Pods-iostoneanalyzerappUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
