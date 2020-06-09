@@ -64,16 +64,16 @@
 		49D1A33C1DBE710100D2A7D0 /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
 		49D1A33E1DBE710900D2A7D0 /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
 		49E15BAF1D9023E7005C4B9E /* RestKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RestKit.framework; path = Carthage/Build/iOS/RestKit.framework; sourceTree = "<group>"; };
-		555C91A81D0F0731003E84E3 /* toneanalyzerios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toneanalyzerios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iostoneanalyzerapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91AB1D0F0731003E84E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		555C91AD1D0F0731003E84E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		555C91B01D0F0731003E84E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		555C91B21D0F0731003E84E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		555C91B71D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555C91BC1D0F0731003E84E3 /* toneanalyzeriosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toneanalyzeriosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostoneanalyzerappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosTests.swift; sourceTree = "<group>"; };
 		555C91C21D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		555C91C71D0F0731003E84E3 /* toneanalyzeriosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toneanalyzeriosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iostoneanalyzerappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toneanalyzeriosUITests.swift; sourceTree = "<group>"; };
 		555C91CD1D0F0731003E84E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toneanalyzeriosUITests.debug.xcconfig"; path = "Target Support Files/Pods-toneanalyzeriosUITests/Pods-toneanalyzeriosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,9 +144,9 @@
 		555C919F1D0F0731003E84E3 = {
 			isa = PBXGroup;
 			children = (
-				555C91AA1D0F0731003E84E3 /* toneanalyzerios */,
-				555C91BF1D0F0731003E84E3 /* toneanalyzeriosTests */,
-				555C91CA1D0F0731003E84E3 /* toneanalyzeriosUITests */,
+				555C91AA1D0F0731003E84E3 /* iosapp */,
+				555C91BF1D0F0731003E84E3 /* iosappTests */,
+				555C91CA1D0F0731003E84E3 /* iosappUITests */,
 				555C91A91D0F0731003E84E3 /* Products */,
 				545C9DD4D3D79A706E9BC9CE /* Frameworks */,
 				2B17B012FD50B0CB5A077FDE /* Pods */,
@@ -156,14 +156,14 @@
 		555C91A91D0F0731003E84E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555C91A81D0F0731003E84E3 /* toneanalyzerios.app */,
-				555C91BC1D0F0731003E84E3 /* toneanalyzeriosTests.xctest */,
-				555C91C71D0F0731003E84E3 /* toneanalyzeriosUITests.xctest */,
+				555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */,
+				555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */,
+				555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		555C91AA1D0F0731003E84E3 /* toneanalyzerios */ = {
+		555C91AA1D0F0731003E84E3 /* iosapp */ = {
 			isa = PBXGroup;
 			children = (
 				E93C8179572349E4B03502C3 /* BMSCredentials.plist */,
@@ -177,33 +177,33 @@
 				555C91B71D0F0731003E84E3 /* Info.plist */,
 				E3F7DD45202BAF5400F857C3 /* AnalyzerError.swift */,
 			);
-			path = toneanalyzerios;
+			path = iosapp;
 			sourceTree = "<group>";
 		};
-		555C91BF1D0F0731003E84E3 /* toneanalyzeriosTests */ = {
+		555C91BF1D0F0731003E84E3 /* iosappTests */ = {
 			isa = PBXGroup;
 			children = (
 				555C91C01D0F0731003E84E3 /* toneanalyzeriosTests.swift */,
 				555C91C21D0F0731003E84E3 /* Info.plist */,
 			);
-			path = toneanalyzeriosTests;
+			path = iosappTests;
 			sourceTree = "<group>";
 		};
-		555C91CA1D0F0731003E84E3 /* toneanalyzeriosUITests */ = {
+		555C91CA1D0F0731003E84E3 /* iosappUITests */ = {
 			isa = PBXGroup;
 			children = (
 				555C91CB1D0F0731003E84E3 /* toneanalyzeriosUITests.swift */,
 				555C91CD1D0F0731003E84E3 /* Info.plist */,
 			);
-			path = toneanalyzeriosUITests;
+			path = iosappUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		555C91A71D0F0731003E84E3 /* toneanalyzerios */ = {
+		555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzerios" */;
+			buildConfigurationList = 555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerapp" */;
 			buildPhases = (
 				452E51B17AF70BA30939F16D /* [CP] Check Pods Manifest.lock */,
 				555C91A41D0F0731003E84E3 /* Sources */,
@@ -216,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = toneanalyzerios;
+			name = iostoneanalyzerapp;
 			productName = toneanalyzerios;
-			productReference = 555C91A81D0F0731003E84E3 /* toneanalyzerios.app */;
+			productReference = 555C91A81D0F0731003E84E3 /* iostoneanalyzerapp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		555C91BB1D0F0731003E84E3 /* toneanalyzeriosTests */ = {
+		555C91BB1D0F0731003E84E3 /* iostoneanalyzerappTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosTests" */;
+			buildConfigurationList = 555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappTests" */;
 			buildPhases = (
 				797C0899103444B25385A8AB /* [CP] Check Pods Manifest.lock */,
 				555C91B81D0F0731003E84E3 /* Sources */,
@@ -235,14 +235,14 @@
 			dependencies = (
 				555C91BE1D0F0731003E84E3 /* PBXTargetDependency */,
 			);
-			name = toneanalyzeriosTests;
+			name = iostoneanalyzerappTests;
 			productName = toneanalyzeriosTests;
-			productReference = 555C91BC1D0F0731003E84E3 /* toneanalyzeriosTests.xctest */;
+			productReference = 555C91BC1D0F0731003E84E3 /* iostoneanalyzerappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		555C91C61D0F0731003E84E3 /* toneanalyzeriosUITests */ = {
+		555C91C61D0F0731003E84E3 /* iostoneanalyzerappUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosUITests" */;
+			buildConfigurationList = 555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappUITests" */;
 			buildPhases = (
 				65039B1CF49E633042FBBB16 /* [CP] Check Pods Manifest.lock */,
 				555C91C31D0F0731003E84E3 /* Sources */,
@@ -254,9 +254,9 @@
 			dependencies = (
 				555C91C91D0F0731003E84E3 /* PBXTargetDependency */,
 			);
-			name = toneanalyzeriosUITests;
+			name = iostoneanalyzerappUITests;
 			productName = toneanalyzeriosUITests;
-			productReference = 555C91C71D0F0731003E84E3 /* toneanalyzeriosUITests.xctest */;
+			productReference = 555C91C71D0F0731003E84E3 /* iostoneanalyzerappUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +285,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "toneanalyzerios" */;
+			buildConfigurationList = 555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iostoneanalyzerapp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,9 +298,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				555C91A71D0F0731003E84E3 /* toneanalyzerios */,
-				555C91BB1D0F0731003E84E3 /* toneanalyzeriosTests */,
-				555C91C61D0F0731003E84E3 /* toneanalyzeriosUITests */,
+				555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */,
+				555C91BB1D0F0731003E84E3 /* iostoneanalyzerappTests */,
+				555C91C61D0F0731003E84E3 /* iostoneanalyzerappUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -464,12 +464,12 @@
 /* Begin PBXTargetDependency section */
 		555C91BE1D0F0731003E84E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555C91A71D0F0731003E84E3 /* toneanalyzerios */;
+			target = 555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */;
 			targetProxy = 555C91BD1D0F0731003E84E3 /* PBXContainerItemProxy */;
 		};
 		555C91C91D0F0731003E84E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 555C91A71D0F0731003E84E3 /* toneanalyzerios */;
+			target = 555C91A71D0F0731003E84E3 /* iostoneanalyzerapp */;
 			targetProxy = 555C91C81D0F0731003E84E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -606,11 +606,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = toneanalyzerios/Info.plist;
+				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzerios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerapp;
+				PRODUCT_NAME = iostoneanalyzerapp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -625,11 +625,11 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = toneanalyzerios/Info.plist;
+				INFOPLIST_FILE = iosapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzerios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerapp;
+				PRODUCT_NAME = iostoneanalyzerapp;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -639,12 +639,12 @@
 			baseConfigurationReference = C11AD7380ABF8359CB07321E /* Pods-toneanalyzeriosTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = toneanalyzeriosTests/Info.plist;
+				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toneanalyzerios.app/toneanalyzerios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostoneanalyzerapp.app/iostoneanalyzerapp";
 			};
 			name = Debug;
 		};
@@ -653,12 +653,12 @@
 			baseConfigurationReference = ACF0E1A4279A4BB38B97E337 /* Pods-toneanalyzeriosTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = toneanalyzeriosTests/Info.plist;
+				INFOPLIST_FILE = iosappTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toneanalyzerios.app/toneanalyzerios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iostoneanalyzerapp.app/iostoneanalyzerapp";
 			};
 			name = Release;
 		};
@@ -666,9 +666,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57E562EFDAE07D53B98EBE14 /* Pods-toneanalyzeriosUITests.debug.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = toneanalyzeriosUITests/Info.plist;
+				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = toneanalyzerios;
@@ -679,9 +679,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9D24B8CB3C488252BE1252C /* Pods-toneanalyzeriosUITests.release.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = toneanalyzeriosUITests/Info.plist;
+				INFOPLIST_FILE = iosappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.toneanalyzeriosUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.iostoneanalyzerappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_TARGET_NAME = toneanalyzerios;
@@ -691,7 +691,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "toneanalyzerios" */ = {
+		555C91A31D0F0731003E84E3 /* Build configuration list for PBXProject "iostoneanalyzerapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91CE1D0F0731003E84E3 /* Debug */,
@@ -700,7 +700,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzerios" */ = {
+		555C91D01D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D11D0F0731003E84E3 /* Debug */,
@@ -709,7 +709,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosTests" */ = {
+		555C91D31D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D41D0F0731003E84E3 /* Debug */,
@@ -718,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "toneanalyzeriosUITests" */ = {
+		555C91D61D0F0731003E84E3 /* Build configuration list for PBXNativeTarget "iostoneanalyzerappUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555C91D71D0F0731003E84E3 /* Debug */,
