@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'toneanalyzerios' do
+target 'iostoneanalyzerapp' do
     pod 'BMSCore', '~> 2.6.0'
     pod 'IBMWatsonToneAnalyzerV3', '~> 3.4.0'
 
@@ -22,12 +22,12 @@ target 'toneanalyzerios' do
         end
     end
 
-    target 'toneanalyzeriosTests' do
+    target 'iostoneanalyzerappTests' do
         inherit! :search_paths
         # Pods for testing
     end
 
-    target 'toneanalyzeriosUITests' do
+    target 'iostoneanalyzerappUITests' do
         inherit! :search_paths
         # Pods for testing
     end
